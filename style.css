@@ -1,0 +1,176 @@
+  
+        /* General Styling */
+
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: burlywood;
+            
+        header {
+            background: #2c3e50;
+            color:rgb(16, 13, 10) ;
+            text-align: center;
+            padding: 20px;
+            background-image: url(images/city.jfif);
+        header h1{
+            margin: 0;
+            font-size: 100px;
+        
+    
+        }
+        
+    }
+             /* Flexbox Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+        }
+    }
+    
+        nav a {
+            color: yellowgreen;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #1abc9c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: burlywood no-repeat center/cover;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* Flexbox Cards Section */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        .card {
+            background: ghostwhite;
+            width: 500px;
+            border-radius: 50px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.6s;
+        }
+         .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Image Transition */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s, opacity 0.5s;
+        }
+
+        .card img:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #2c3e50;
+            color: grey;
+            padding: 10px;
+        }
+    .form-section {
+            background: #f5deb3;
+            padding: 40px 20px;
+            text-align: center;
+        }
+ 
+        .form-section h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+ 
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: 0 auto;
+            gap: 12px;
+        }
+ 
+        .contact-form label {
+            text-align: left;
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 0.95em;
+        }
+ 
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px 15px;
+            border: 2px solid #2c3e50;
+            border-radius: 8px;
+            font-size: 1em;
+            font-family: Arial, sans-serif;
+            background: white;
+            outline: none;
+        }
+ 
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #1abc9c;
+        }
+ 
+        .contact-form button {
+            padding: 12px;
+            background: #2c3e50;
+            color: burlywood;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+ 
+        .contact-form button:hover {
+            background: #1abc9c;
+            color: white;
+        }
+        .video-section {
+            text-align: center;
+            background: #2c3e50;
+            padding: 40px 20px;
+            color: burlywood;
+            height: 500px;
+        }
+        .video-section h2{
+
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .video-section video{
+            border-radius: 30px;
+            max-width: 100%;
+            height: 400px;
+        }
